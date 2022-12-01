@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/whats-to-clean-frontend/static/css/main.65472a2e.css",
-    "main.js": "/whats-to-clean-frontend/static/js/main.9bf6454a.js",
-    "static/js/651.7dacfef7.chunk.js": "/whats-to-clean-frontend/static/js/651.7dacfef7.chunk.js",
-    "index.html": "/whats-to-clean-frontend/index.html",
-    "main.65472a2e.css.map": "/whats-to-clean-frontend/static/css/main.65472a2e.css.map",
-    "main.9bf6454a.js.map": "/whats-to-clean-frontend/static/js/main.9bf6454a.js.map",
-    "651.7dacfef7.chunk.js.map": "/whats-to-clean-frontend/static/js/651.7dacfef7.chunk.js.map"
+    "main.css": "./static/css/main.65472a2e.css",
+    "main.js": "./static/js/main.379df2ff.js",
+    "static/js/651.7dacfef7.chunk.js": "./static/js/651.7dacfef7.chunk.js",
+    "index.html": "./index.html",
+    "main.65472a2e.css.map": "./static/css/main.65472a2e.css.map",
+    "main.379df2ff.js.map": "./static/js/main.379df2ff.js.map",
+    "651.7dacfef7.chunk.js.map": "./static/js/651.7dacfef7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65472a2e.css",
-    "static/js/main.9bf6454a.js"
+    "static/js/main.379df2ff.js"
   ]
 }
