@@ -1,0 +1,55 @@
+#information_page {
+
+    p {
+        text-align: justify;
+        margin-top: 10px;
+    }
+
+    > section {
+
+        margin: 50px;
+        padding: 10px;
+        border-left: 1px solid gray;
+
+        > #information_title {
+            font-size: 64px;
+            font-style: italic;
+        }
+
+        > h2 {
+            font-size: 32px;
+            text-decoration: underline;
+            margin-bottom: 30px;
+        }
+
+        ul, ol {
+            padding-left: 40px;
+            margin-top: 10px;
+        }
+
+        ul {
+            list-style-type: disc;
+        }
+
+        ol {
+            list-style-type: decimal;
+        }
+
+        i {
+            font-style: italic;
+        }
+
+        > div {
+            
+            margin-top: 30px;
+            padding: 10px;
+            border-left: 1px dashed gray;
+
+            h3 {
+                font-size: 20px;
+                text-decoration: underline;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

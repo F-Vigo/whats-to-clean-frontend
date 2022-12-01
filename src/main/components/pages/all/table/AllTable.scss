@@ -1,0 +1,37 @@
+#all_table {
+    
+    border-spacing: 30px 10px;
+    margin: auto;
+
+    th, td {
+        width: 20%;
+        border: 1px solid darkgray;
+        border-bottom: none;
+        padding: 10px;
+        cursor: default;
+    }
+
+    th {
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+
+    td.all_button_cell {
+        text-align: center;
+        > button {
+            margin: auto 10px;
+        }
+    }
+
+    td.create_td {
+        border-bottom: 1px solid white;
+    }
+
+    td.update_td, td.delete_td {
+        border-top: 1px dashed white;
+    }
+
+    td#all_delete_sure {
+        text-align: center;
+    }
+}

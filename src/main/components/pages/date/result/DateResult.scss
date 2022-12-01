@@ -1,0 +1,38 @@
+ #date_result_div {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+
+    > .date_result_column {
+
+        text-align: center; 
+
+        > .date_result_header_item {
+            text-decoration: underline;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            cursor: default;
+        }
+
+        > .column_flex {
+
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-evenly;
+            height: 100%;
+
+            > div {
+                opacity: 0.25;
+            }
+
+            > div.room_pressed, div.section_pressed, div.actual_chore {
+                opacity: 1;
+            }
+
+            .column_flex_room_item, .column_flex_section_item {
+                cursor: pointer;
+            }
+        }
+    }
+}

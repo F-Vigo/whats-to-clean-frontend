@@ -1,0 +1,41 @@
+#file_div {
+
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    #upload_wrapper, #download_wrapper {
+        width: a;
+        border: 1px solid white;
+        border-radius: 15px;
+        padding: 15px;
+
+    }
+
+    #upload_wrapper {
+
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+        #file_search_button {
+            padding: 0px;
+            margin-bottom: 15px;
+        }
+
+        #file_search_label {
+            display: inline-block;
+            padding: 8px;
+        }
+
+        #file_name {
+            display: block;
+            min-width: 80%;
+            min-height: 16px;
+            padding: 8px;
+            border: 1px solid white;
+            margin-bottom: 15px;
+        }
+    }
+}

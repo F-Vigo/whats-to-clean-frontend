@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@use "reset-css" as *;
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#App {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', sans-serif;
+  //text-shadow: 2px 2px 0px black;
+  font-size: 16px;
+
+  button {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 8px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 100ms;
+}
+
+button:hover {
+    background-color: darkgoldenrod;
+}
+}
