@@ -34,8 +34,6 @@ export const HomePage: FC<HomePageProps> = ({changeActivePage}) => {
         <div id="home_page">
             <h1>What&apos;s to clean?</h1>
             <div>
-                {/* <label htmlFor="username"> {getTranslation(activeLang, "username")} </label> */}
-                {/* <input id="username" name="username" type="text"/> */}
                 <button type="button" onClick={logIn}> {getTranslation(activeLang, "logIn")} </button>
             </div>
         </div>

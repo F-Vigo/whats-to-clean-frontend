@@ -21,7 +21,7 @@ export const App: FC<AppProps> = () => {
             <div id="App">
                 <Header activePage={activePage} changeActivePage={changeActivePage} />
                 <div id="active_page">
-                    <ActivePage activePage={activePage} changeActivePage={changeActivePage}  />
+                    <ActivePage activePage={activePage} changeActivePage={changeActivePage} />
                 </div>
                 <Footer />
             </div>

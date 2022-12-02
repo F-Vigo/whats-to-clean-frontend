@@ -18,24 +18,20 @@ export const LangSelector: FC<LangSelectorProps> = () => {
         changeActiveLang(lang)
     }
 
-    window.addEventListener("click", function(e){   
+    window.addEventListener("click", function(e) {   
         if (pressed && !document.getElementById("lang_selector")!.contains(e.target as HTMLDivElement)) {
             setPressed(false)
         }
     })
 
 
-    return ( // TO DO
+    return (
         <div id="lang_selector">
-            <div id="lang_button" className={classNamePressed} onClick={() => setPressed(!pressed)}>
+            <button id="lang_button" className={classNamePressed} onClick={() => setPressed(!pressed)}>
                 <p id="world_icon">🌍</p>
                 <p id="lang_p">{getLangTranslation(activeLang)}</p>
-            </div>
+            </button>
       
-
-            {/*       <select id="lang_select" value={getLangTranslation(activeLang)} onChange={(event) => changeActiveLang(fetchLangValue(event.target.value))}>
-        {langList.map(lang => <option className="option_lang" key={lang}>{getLangTranslation(lang)}</option>)}
-      </select> */}
             <ul id="lang_ul" className={classNamePressed} >
                 {langList.map(lang => <li key={lang} onClick={() => langSelected(lang)}>{getLangTranslation(lang)}</li>)}
             </ul>

@@ -41,8 +41,6 @@ export const logOutEndpoint = (): Promise<any> => {
 
 
 
-
-
 export const getByDateEndpoint = (year: string, month: string, day: string): Promise<any> => {
     return getEndpoint(`chore/${year}-${month}-${day}`)
 }
@@ -70,3 +68,5 @@ export const getFileEndpoint = (): Promise<any> => {
 export const postFileEndpoint = (data: FormData): Promise<any> => {
     return postEndpoint("file", data)
 }
+
+export default {}

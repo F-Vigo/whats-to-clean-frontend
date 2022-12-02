@@ -11,7 +11,7 @@ export const ErrorPage: FC<ErrorPageProps> = () => {
 
     return (
         <div id="error_page">
-            <p>{getTranslation(activeLang, "errorPage")} 😢</p>
+            <p><span>{getTranslation(activeLang, "errorPage")}</span> <span>😢</span></p>
         </div>
     )
 }
